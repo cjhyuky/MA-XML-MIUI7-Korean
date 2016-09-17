@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="status_bar_style_entries">
-        <item>통합 모드</item>
-        <item>분리 모드</item>
-    </string-array>
     <string-array name="timezone_filters">
         <item>미국</item>
         <item>유럽</item>
@@ -332,13 +328,6 @@
         <item>파란색 바탕에 흰색</item>
         <item>맞춤설정</item>
     </string-array>
-    <string-array name="select_logd_size_summaries">
-        <item>64K 로그 버퍼</item> 
-        <item>256K 로그 버퍼</item> 
-        <item>1M 로그 버퍼</item> 
-        <item>4M 로그 버퍼</item> 
-        <item>16M 로그 버퍼</item> 
-    </string-array>
     <string-array name="hdcp_checking_titles">
         <item>확인 안함</item>
         <item>DRM 콘텐츠만 확인</item>
@@ -495,6 +484,14 @@
         <item>최근 앱 트레이 표시</item>
         <item>메뉴 표시</item>
     </string-array>
+    <string-array name="screen_key_long_press_action">
+        <item>없음</item>
+        <item>최근 앱 트레이 표시</item>
+        <item>보조 장치 실행</item>
+        <item>Google now 실행</item>
+        <item>현재 앱 닫기</item>
+        <item>메뉴 표시</item>
+    </string-array>
     <string-array name="screen_key_long_press_timeout">
         <item>0.5초</item>
         <item>1초</item>
@@ -598,13 +595,6 @@ Note: Only for Ubuntu 8.04!"</item>
     <string-array name="wifi_ssid_type_entries">
         <item>자동으로 연결</item>
         <item>수동으로 연결</item>
-    </string-array>
-    <string-array name="slideshow_time_entries">
-        <item>5분</item>
-        <item>15분</item>
-        <item>30분</item>
-        <item>1시간</item>
-        <item>무제한</item>
     </string-array>
     <string-array name="preferred_app_entries">
         <item>런처</item>
@@ -807,6 +797,13 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>사용 안함</item>
         <item>알리미</item>
         <item>진동</item>
+    </string-array>
+    <string-array name="slideshow_time_entries">
+        <item>5분</item>
+        <item>15분</item>
+        <item>30분</item>
+        <item>1시간</item>
+        <item>무제한</item>
     </string-array>
     <string-array name="select_runtime_titles">
         <item>Dalvik</item>

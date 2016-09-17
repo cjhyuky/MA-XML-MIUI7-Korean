@@ -34,17 +34,13 @@
         <item quantity="other">비밀번호에는 적어도 %d개 이상의 글자가 아닌 문자가 포함되어야 합니다.</item>
         <item quantity="one">비밀번호에는 글자가 아닌 문자가 한 개 이상 포함되어야 합니다.</item>
     </plurals>
-    <plurals name="manage_notification_access_summary_nonzero">
-        <item quantity="other">%d개의 앱이 알림을 읽을 수 있습니다.</item>
-        <item quantity="one">%d개의 앱이 알림을 읽을 수 있습니다.</item>
-    </plurals>
     <plurals name="wrong_pin_code">
         <item quantity="other">SIM PIN 코드가 잘못되었습니다. %d번의 기회가 남았습니다.</item>
         <item quantity="one">SIM PIN 코드가 잘못되었습니다. %d회 이상 실패할 경우 이동통신사에 문의하여 기기를 잠금 해제해야 합니다.</item>
     </plurals>
-    <plurals name="print_search_result_count_utterance">
-        <item quantity="other">프린터 %1$s대 검색됨</item>
-        <item quantity="one">프린터 %1$s대 검색됨</item>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d개의 앱이 알림을 읽을 수 있습니다.</item>
+        <item quantity="one">%d개의 앱이 알림을 읽을 수 있습니다.</item>
     </plurals>
     <plurals name="show_pho_countdown">
         <item quantity="other">전화 정보 입력까지 %1$d단계 남았습니다.</item>
@@ -62,5 +58,9 @@
     <plurals name="auto_disable_screenbuttons_disabled_header_title">
         <item quantity="other">%d개의 어플리케이션 비활성화 안함</item>
         <item quantity="one">1개의 어플리케이션 비활성화 안함</item>
+    </plurals>
+    <plurals name="print_search_result_count_utterance">
+        <item quantity="other">프린터 %1$s대 검색됨</item>
+        <item quantity="one">프린터 %1$s대 검색됨</item>
     </plurals>
 </resources>
