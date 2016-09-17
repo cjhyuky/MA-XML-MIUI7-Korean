@@ -5,11 +5,6 @@
         <item>"오늘 "</item>
         <item>"이번 달 "</item>
     </string-array>
-    <string-array name="date_of_traffic_prefix">
-        <item>"어제: "</item>
-        <item>"오늘: "</item>
-        <item>"이번 달: "</item>
-    </string-array>
     <string-array name="date_of_app_all">
         <item>어제(데이터)</item>
         <item>오늘(데이터)</item>
@@ -32,15 +27,6 @@
         <item>8초</item>
         <item>9초</item>
     </string-array>
-    <string-array name="traffic_type">
-        <item>"모바일 사용량 "</item>
-        <item>"Wi-Fi 사용량 "</item>
-        <item>"데이터 절약됨 "</item>
-    </string-array>
-    <string-array name="mi_service_traffic_type">
-        <item>"모바일 사용량 "</item>
-        <item>"Wi-Fi 사용량 "</item>
-    </string-array>
     <string-array name="traffic_sort_type">
         <item>"모바일 데이터 사용량 "</item>
         <item>"Wi-Fi 사용량 "</item>
@@ -49,6 +35,20 @@
     <string-array name="traffic_setting_sms_template">
         <item>자동으로 받음</item>
         <item>수동으로 설정</item>
+    </string-array>
+    <string-array name="date_of_traffic_prefix">
+        <item>"어제: "</item>
+        <item>"오늘: "</item>
+        <item>"이번 달: "</item>
+    </string-array>
+    <string-array name="traffic_type">
+        <item>"모바일 사용량 "</item>
+        <item>"Wi-Fi 사용량 "</item>
+        <item>"데이터 절약됨 "</item>
+    </string-array>
+    <string-array name="mi_service_traffic_type">
+        <item>"모바일 사용량 "</item>
+        <item>"Wi-Fi 사용량 "</item>
     </string-array>
     <string-array name="over_limit_traffic_waring_style">
         <item>경고 보이기</item>
