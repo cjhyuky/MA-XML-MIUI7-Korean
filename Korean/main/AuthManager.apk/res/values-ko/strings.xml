@@ -49,9 +49,9 @@
     <string name="HIPS_Perm_Call">전화 통화하기</string>
     <string name="HIPS_Perm_Call_Desc">전화번호로 바로 전화</string>
     <string name="HIPS_Perm_Call_Hint">%1$s개의 앱이 전화번호로 바로 전화할 수 있습니다.</string>
-    <string name="HIPS_Perm_CallState">휴대전화 상태 읽기</string>
-    <string name="HIPS_Perm_CallState_Desc">휴대전화 상태 읽기</string>
-    <string name="HIPS_Perm_CallState_Hint">%1$s개의 앱이 휴대전화 상태를 읽을 수 있습니다.</string>
+    <string name="HIPS_Perm_CallState">스마트폰 상태 읽기</string>
+    <string name="HIPS_Perm_CallState_Desc">스마트폰 상태 읽기</string>
+    <string name="HIPS_Perm_CallState_Hint">%1$s개의 앱이 스마트폰 상태를 읽을 수 있습니다.</string>
     <string name="HIPS_Perm_CallMonitor">전화 통화 모니터링</string>
     <string name="HIPS_Perm_CallMonitor_Desc">전화 통화 모니터링과 통화 중 볼륨 조절</string>
     <string name="HIPS_Perm_CallMonitor_Hint">%1$s개의 앱이 전화 통화 모니터링 및 통화 중 음량 조절을 할 수 있습니다.</string>
@@ -155,12 +155,8 @@
     <string name="HIPS_Perm_PromptAll">전체 요청</string>
     <string name="HIPS_Perm_RejectAll">전체 거부</string>
     <string name="HIPS_Perm_ROOT_Title">앱이 루트 권한을 가지고 있습니다.</string>
-    <string name="HIPS_Perm_show_when_locked">잠금화면에 표시</string>
-    <string name="HIPS_Perm_show_when_locked_Desc">잠금화면에서 앱을 확인할 수 있습니다.</string>
-    <string name="HIPS_Perm_background_start_activity">백그라운드에서 시작</string>
-    <string name="HIPS_Perm_background_start_activity_Desc">백그라운드에서 앱이 실행됩니다</string>
-    <string name="HIPS_Perm_ListenCallState">정확한 휴대전화 상태 읽기</string>
-    <string name="HIPS_Perm_GetCallState">정확한 휴대전화 상태에 접근</string>
+    <string name="HIPS_Perm_ListenCallState">정확한 스마트폰 상태 읽기</string>
+    <string name="HIPS_Perm_GetCallState">정확한 스마트폰 상태에 접근</string>
     <string name="HIPS_Perm_EndCall">통화 종료</string>
     <string name="HIPS_Perm_AnswerCall">전화 받기</string>
     <string name="HIPS_Perm_SilenceRinger">수신 전화 무음 설정</string>
@@ -212,8 +208,6 @@
     <string name="Dashboard_Perm_AutoStart_Desc">기기를 켜면 앱 제어를 시작할 수 있습니다.</string>
     <string name="Dashboard_HIPS_Disable_Title">권한</string>
     <string name="Dashboard_HIPS_Disable_Content">MIUI는 앱의 권한 요청을 모니터링하지 않습니다.</string>
-    <string name="Dashboard_Su_Enable_Title">루트 권한 경고</string>
-    <string name="Dashboard_Su_Enable_Content">서드파티 앱에 루트 권한을 부여하면 시스템 불안정, 사용자 데이터 손실, 하드웨어 손상을 유발할 수 있습니다.</string>
     <string name="Dashboard_Log_Clear_Title">로그 지우기</string>
     <string name="Dashboard_Log_Clear_Content">모든 로그가 삭제됩니다.</string>
     <string name="Privacy_Perm_Count">%1$d개 허용됨 | %2$d개 거부됨</string>
@@ -238,8 +232,6 @@
     <string name="Su_Unavailable">이 버젼의 MIUI에서는 루트 권한을 사용할 수 없습니다. 루트 권한을 부여하려면 MIUI 개발자 빌드를 플래싱해야 합니다.</string>
     <string name="Su_Package_Forbidden">%1$s은(는) 루트 권한이 없습니다.</string>
     <string name="permisson_reject_notice_toast_text">\"%1$s\"은(는) %2$s에 대한 권한이 없습니다, 앱 권한은 언제든지 보안 > 권한에서 변경할 수 있습니다.</string>
-    <string name="Su_Package_Forbidden2">%1$s은(는) 루트 권한이 없습니다.</string>
-    <string name="permisson_reject_notice_toast_text2">\"%1$s\"은(는) %2$s에 대한 권한이 없습니다, 앱 권한은 언제든지 보안 > 권한에서 변경할 수 있습니다.</string>
     <string name="HIPS_Action_Reject_Once">한 번 거부</string>
     <string name="HIPS_Action_Accept_Once">한 번 허용</string>
     <string name="HIPS_SecurityPrompt_Accept_Once">한 번 허용(%d)</string>
@@ -275,8 +267,6 @@
     <string name="HIPS_Perm_process_nfc_Desc">근거리 통신(NFC) 허용</string>
     <string name="HIPS_Perm_install_shortcut">홈화면 바로가기</string>
     <string name="HIPS_Perm_install_shortcut_Desc">홈화면에 바로가기 추가</string>
-    <string name="HIPS_Perm_read_notification_sms">서비스 SMS</string>
-    <string name="HIPS_Perm_read_notification_sms_Desc">서비스 SMS 읽기</string>
     <string name="permission_group_title_charges_related">요금</string>
     <string name="permission_group_title_privacy_related">개인 정보 보호</string>
     <string name="permission_group_title_media_related">멀티미디어</string>
@@ -295,4 +285,6 @@
     <string name="grant_dialog_button_deny">거부</string>
     <string name="current_permission_template">%2$s의 %1$s</string>
     <string name="never_ask_again">다시 묻지 않기</string>
+    <string name="Dashboard_Su_Enable_Title">루트 권한 경고</string>
+    <string name="Dashboard_Su_Enable_Content">서드파티 앱에 루트 권한을 부여하면 시스템 불안정, 사용자 데이터 손실, 하드웨어 손상을 유발할 수 있습니다.</string>
 </resources>
